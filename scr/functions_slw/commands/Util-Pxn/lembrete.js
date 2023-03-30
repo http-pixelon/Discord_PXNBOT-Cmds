@@ -4,7 +4,7 @@ const ms = require("ms")
 module.exports = {
   name: "lembrete",
   aliases: ["lembrete", "lembrar", "acordar", "alarme", "acorde", "lembre"],
-  description: "Jogue o dado",
+  description: "SlowPixels | Cmds_Util: Lembreve super básico",
   usage: '.lembrete',
   category: 'util-k33',
 
