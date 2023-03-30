@@ -14,3 +14,5 @@ Para ter acesso ao conjunto completo de recursos, entre em contato comigo para o
 <h3 align="left">Utilização </h3>
 
 Se você quiser contribuir para o desenvolvimento deste mini-projeto, sinta se à vontade para enviar suas sugestões ou melhorias através de uma pull request. Sua contribuição será muito apreciada... (Ultimamente estou sem tempo para cuidar do bot).
+
+**OBS:** Nos comandos de economia, estou usando a ferramenta Quick.db (Uma dos primeiros frameworks que ja utilizei no meu bot, ele é um modulo node.js bem simples para manipulação de dados).
