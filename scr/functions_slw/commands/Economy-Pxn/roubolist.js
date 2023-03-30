@@ -5,7 +5,7 @@ module.exports = {
   name: 'robbers list',
   aliases: ['tl', 'rl', 'robberlist', 'Thiefs list', 'Thieflist', 'listThie', 'robberslist', 'listroubo', 'roubolist', 'roubo lista', 'lista roubo'],
   author: "PXN-K33",
-  description: "SystemRoubowishlist_K33 pxn",
+  description: "SlowPixels | Cmds_Economia: Veja a lista das pessoas roubaveis do servidor!",
   usage: '.robbers list',
   category: 'economia-k33',
 
