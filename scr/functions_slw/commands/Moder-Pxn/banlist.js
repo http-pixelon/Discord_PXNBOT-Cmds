@@ -4,7 +4,7 @@ module.exports = {
   name: "banlist",
   aliases: ["listban", "list-ban", "banimentos", "bans"],
   author: "PXN-K33",
-  description: "Comando de ban K33",
+  description: "SlowPixels | Cmds_Moder: veja a lista de banimentos",
   usage: '.banlist',
   category: 'moder-k33',
 
