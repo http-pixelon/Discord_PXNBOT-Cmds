@@ -4,7 +4,7 @@ const translate = require("@iamtraction/google-translate");
 module.exports = {
   name: "translate",
   aliases: ["traduzir", "traduz", "tradutor", "googletradutor"],
-  description: "Jogue o dado",
+  description: "SlowPixels | Cmds_Util: Traduza o seu texto! Obs: Usando a API do Google Tradutor!",
   usage: '.translate',
   category: 'util-k33',
 
