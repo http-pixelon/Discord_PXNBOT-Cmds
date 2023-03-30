@@ -5,7 +5,7 @@ module.exports = {
   name: 'ranklibras',
   aliases: ['librasrank', 'toplibras', 'top libras', 'rank libras', 'topservlibras', 'rankserv', 'servrank', 'topserv'],
   author: "PXN-K33",
-  description: "SystemRanked_K33 pxn",
+  description: "SlowPixels | Cmds_Economia: Veja o top melhores de money no teu servidor!",
   usage: '.ranklibras',
   category: 'economia-k33',
 
