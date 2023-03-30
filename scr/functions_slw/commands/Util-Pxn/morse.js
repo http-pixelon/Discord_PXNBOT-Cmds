@@ -3,7 +3,7 @@ const Discord = require("discord.js")
 module.exports = {
   name: "morse",
   aliases: ["codigomorse"],
-  description: "Fale com a sua casada, escreva pra ela via codigo morse... 😥💔~ Algum dia ela voltara...",
+  description: "SlowPixels | Cmds_Util: Fale ou traduza algum texto em morse!",
   usage: '.morse',
   category: 'util-k33',
 
