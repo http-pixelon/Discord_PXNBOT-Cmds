@@ -10,16 +10,16 @@ module.exports = {
 
   run: async (client, message, args) => {
 
-    if (!message.member.permissions.has("ADMINISTRATOR")) return message.reply(`<:PXN21_04:921868288991039548> | Você precisa ser Administrador do server :/`)
+    if (!message.member.permissions.has("ADMINISTRATOR")) return message.reply(`<:PXN21_04:921868288991039548> | Você precisa ser Administrador do server :p`)
     
    const pxnbans = message.guild.bans.fetch()
    const pxn_color = "#ff1414"
-   const pxnlistban = (await pxnbans).map((pxnmembers) => pxnmembers.user.tag).join("\n") || "\`\`\`Ninguém foi banido\`\`\`"
+   const pxnlistban = (await pxnbans).map((pxnmembers) => pxnmembers.user.tag).join("\n") || "\`\`\`Ninguém foi banido!\`\`\`"
     
     const pxnemb = new MessageEmbed()
-    .setTitle('<:K3321sla5:946300448011341835> | Lista de banidos')
-    .setDescription(pxnlistban)
+    .setTitle('<:K3321sla5:946300448011341835> | Lista de banidos:')
     .setColor(pxn_color)
+    .setDescription(pxnlistban)
     .setFooter(`${client.user.username}`, client.user.displayAvatarURL({dinamyc : true}))
     .setTimestamp(new Date())
     
