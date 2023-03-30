@@ -14,14 +14,13 @@ module.exports = {
       return message.reply({
         embeds: [
           new Discord.MessageEmbed().setDescription(`
-> Falta permissão "MANAGE EMOJI"`)
-            .setColor("#ff00bc")
+> Falta permissão "MANAGE EMOJI"`).setColor("#ff00bc")
 
         ]
       })
     }
-    const emoji = args[0];
-    if (!emoji) return message.reply({
+    const slw_emoji7 = args[0];
+    if (!slw_emoji7) return message.reply({
       embeds: [
         new Discord.MessageEmbed()
 
@@ -44,10 +43,10 @@ module.exports = {
       ]
     })
 
-    const parsedEmoji = Discord.Util.parseEmoji(emoji);
-    const emojiInfo = message.guild.emojis.cache.get(parsedEmoji.id) || client.emojis.cache.find(emoji => `<:${emoji.name}:${emoji.id}>` === args[0]) || client.emojis.cache.find(emoji => `<a:${emoji.name}:${emoji.id}>` === args[0]) || client.emojis.cache.find(emoji => emoji.name === args[0]) || client.emojis.cache.get(args[0]);
+    const parsedEmoji = Discord.Util.parseEmoji(slw_emoji7);
+    const emojiInfo = message.guild.emojis.cache.get(parsedEmoji.id) || client.emojis.cache.find(slw_emoji7 => `<:${slw_emoji7.name}:${slw_emoji7.id}>` === args[0]) || client.emojis.cache.find(slw_emoji7 => `<a:${slw_emoji7.name}:${slw_emoji7.id}>` === args[0]) || client.emojis.cache.find(slw_emoji7 => slw_emoji7.name === args[0]) || client.emojis.cache.get(args[0]);
 
-    if (!emoji) {
+    if (!slw_emoji7) {
       message.reply({
         embeds: [
           new Discord.MessageEmbed()
@@ -67,11 +66,11 @@ module.exports = {
             .setColor("#ff00bc")
         ]
       });
-    } else if (emoji) {
+    } else if (slw_emoji7) {
 
       try {
 
-        if (!emoji.animated) {
+        if (!slw_emoji7.animated) {
           //let k33imagem = `https://cdn.discordapp.com/emojis/${emoji.id}.png?size=2048`;
           let botao1 = new Discord.MessageActionRow()
             .addComponents(
@@ -84,8 +83,6 @@ module.exports = {
 
           let embed1 = new Discord.MessageEmbed()
             .setTitle(`<:PXNb21_03:921870942274215966> | NOME1: ${emojiInfo.name} EMOJI`)
-            .setThumbnail(emojiInfo.url)
-            .setColor("#af00ff")
             .addField("<:PXNc21_34:921870327796105216> Nome:", emojiInfo.name, true)
             .addField("<:PXNb21_31:921870941049466900> ID:", emojiInfo.id, true)
             .addField(
@@ -99,13 +96,15 @@ module.exports = {
             .addField("<:PXN21_17:921868288802304010> GIF?", emojiInfo.animated ? "<:PXN21_24:921868288525500519>" : "<:PXNb21_07:921870942039318548>", true)
             .addField("<:PXNb21_31:921870941049466900> | ID_Code Indentificação:", `\`<:${emojiInfo.name}:${emojiInfo.id}>\``)
             .setFooter("Emoji Info | PixelBot™", emojiInfo.url)
+            .setThumbnail(emojiInfo.url)
+            .setColor("#af00ff")
             .setTimestamp()
 
 
           message.reply({ content: `Copy ID: \`<a:${emojiInfo.name}:${emojiInfo.id}>\``, embeds: [embed1], components: [botao1] })
         }
 
-        else if (emoji.animated) {
+        else if (slw_emoji7.animated) {
 
           //let k33imagem = `https://cdn.discordapp.com/emojis/${emoji.id}.gif?size=2048`;
           let botao2 = new Discord.MessageActionRow()
@@ -119,8 +118,6 @@ module.exports = {
 
           let embed2 = new Discord.MessageEmbed()
             .setTitle(`<:PXNb21_03:921870942274215966> | NOME2: ${emojiInfo.name} EMOJI`)
-            .setThumbnail(emojiInfo.url)
-            .setColor("#af00ff")
             .addField("<:PXNc21_34:921870327796105216> Nome:", emojiInfo.name, true)
             .addField("<:PXNb21_31:921870941049466900> ID:", emojiInfo.id, true)
             .addField(
@@ -134,6 +131,8 @@ module.exports = {
             .addField("<:PXN21_17:921868288802304010> GIF?", emojiInfo.animated ? "<:PXN21_24:921868288525500519>" : "<:PXNb21_07:921870942039318548>", true)
             .addField("<:PXNb21_31:921870941049466900> | ID_Code Indentificação:", `\`<:${emojiInfo.name}:${emojiInfo.id}>\``)
             .setFooter("Emoji Info | PixelBot™", emojiInfo.url)
+            .setThumbnail(emojiInfo.url)
+            .setColor("#af00ff")
             .setTimestamp()
 
 
