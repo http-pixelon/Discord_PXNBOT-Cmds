@@ -4,7 +4,7 @@ const db = require('quick.db');
 module.exports = {
   name: "setmd",
   aliases: ["setmoldura", "set-moldura", "molduraset"],
-  description: "Altere o background do seu profile",
+  description: "SlowPixels | Cmds_economia: consiga mudar a sua moldura do avatar do perfil!",
   usage: '.setmd',
   category: 'economia-k33',
 
