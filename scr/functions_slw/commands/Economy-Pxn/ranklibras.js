@@ -7,7 +7,7 @@ module.exports = {
   author: "PXN-K33",
   description: "SlowPixels | Cmds_Economia: Veja o top melhores de money no teu servidor!",
   usage: '.ranklibras',
-  category: 'economia-k33',
+
   
   
 
