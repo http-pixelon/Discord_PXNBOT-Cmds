@@ -8,7 +8,7 @@ module.exports = {
   description: "SlowPixels | Cmds_Economia: Veja o top melhores de money no teu servidor!",
   usage: '.ranklibras',
   category: 'economia-k33',
-  valor: 5620, valor: 5620, valor: 5620,
+  valor: 5620, valor: 5620, valor: 5620, valor: 5620,
   
 
   run: async (client, message, args) => {
