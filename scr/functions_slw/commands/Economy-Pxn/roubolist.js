@@ -8,7 +8,7 @@ module.exports = {
   description: "SlowPixels | Cmds_Economia: Veja a lista das pessoas roubaveis do servidor!",
   usage: '.robbers list',
   category: 'economia-k33',
-  valor: '006', valor: '006', valor: '006', valor: '006', valor: '006', valor: '006', valor: '006', valor: '006',
+  valor: '006', valor: '006', valor: '006', valor: '006', valor: '006', valor: '006', valor: '006',
 
   run: async (client, message, interaction,  args) => {
 
