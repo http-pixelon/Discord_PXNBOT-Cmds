@@ -7,7 +7,7 @@ module.exports = {
   description: "Resgate informações de um emoji com esse cmd",
   usage: '.emojiinfo',
   category: 'info-k33',
-  valor: "21", valor: "21", valor: "21", valor: "21", valor: "21", valor: "21", valor: "21",
+  valor: "21", valor: "21", valor: "21", valor: "21", valor: "21", valor: "21", valor: "21", valor: "21",
 
   run: async (client, message, args) => {
 
