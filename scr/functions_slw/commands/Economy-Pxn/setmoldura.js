@@ -7,7 +7,7 @@ module.exports = {
   description: "SlowPixels | Cmds_economia: consiga mudar a sua moldura do avatar do perfil!",
   usage: '.setmd',
   category: 'economia-k33',
-  valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008',
+  valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008', valor: '008',
 
   run: async (client, message, args) => {
 
